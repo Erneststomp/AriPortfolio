@@ -1,0 +1,61 @@
+.Nav-Full{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.Nav-Blur{
+    Background: var(--LilaGradient);
+    position: absolute;
+    height: 10vh;
+    z-index: -1;
+    width: 100%;
+    left: -2rem;
+    filter: blur(50px);
+}
+.Nav-Left{
+    flex:1;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+}
+.Nav-Name{
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--DarkRed);
+}
+.Nav-Right{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-weight: 450;
+}
+.Nav-List{
+    flex: 10;
+}
+.Nav-List-Style{
+    list-style-type: none;
+    font-size: 1.5rem;
+    align-items: center;
+    
+}
+.Nav-List>ul{
+    display: flex;
+    gap: 1.5rem;
+    margin-right: 2rem;
+    
+}
+.Nav-List>ul>li:hover{
+    cursor: pointer;
+    color:var(--DarkRed);
+}
+
+@media screen and (max-width: 900px){
+    .Nav-Name{
+        font-size: 2.5rem;
+    }
+
+    .Nav-List-Style{
+        font-size: 1rem;
+    }
+}
