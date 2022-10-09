@@ -2,26 +2,33 @@ import React from 'react'
 import  './NabBar.css'
 const NavBar = () => {
   return (
-    <div className='Nav-Full'>
+    <div >
         <div className='Nav-Blur'></div>
-        <div className='Nav-Left'>
-            <div className='Nav-Name'>Ariadna</div>
-            <span></span>
-        </div>
-        <div className='Nav-Right'>
-            <div className='Nav-List'>
-                <ul className='Nav-List-Style'>
-                    <li>Home</li>
-                    <li>Abilities</li>
-                    <li>Portfolio</li>
-                    <li>About Me</li>
-                    <button className='Contact-Button'>
-                        Contact
-                    </button>
-                </ul>
+        <nav className="navbar navbar-expand-sm navbar-dark  gradient-custom__nav" id="navbar">
+            <div className="container-fluid">  
+                <div className='Nav-Left'>
+                    <div className='Nav-Name navbar-brand'>Ariadna</div>
+                    <span></span>
+                </div>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+                <div className='Nav-Right collapse navbar-collapse Nav-List'  id='navbarToggleExternalContent'>
+                    <ul className='navbar-nav Nav-List-Style'>
+                        <li className=' nav-item'>Home</li>
+                        <li className=' nav-item'>Abilities</li>
+                        <li className=' nav-item'>Portfolio</li>
+                        <li className=' nav-item'>About Me</li>   
+                        <button className='Contact-Button' >
+                            Contact
+                        </button>     
+                    </ul>
+                    
+                        
+                </div>
                 
-            </div>
-        </div>
+            </div>  
+        </nav>
     
     </div>
 
