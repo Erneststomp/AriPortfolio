@@ -96,6 +96,7 @@
   padding: 10px;
   background: var(--LilaGradient);
   border: 1px solid rgba(255, 255, 255, 25%);
+  margin-bottom: 50px;
 }
 
 .CV-Button:hover{
@@ -105,7 +106,7 @@
   border: 1px solid var(--Lila);
 }
 
-@media screen and (max-width: 580px){
+@media screen and (max-width: 991px){
   .Contact-Button{
     border-radius: 30px;
     border: none;

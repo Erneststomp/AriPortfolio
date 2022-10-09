@@ -13,18 +13,15 @@ const NavBar = () => {
                 <span className="navbar-toggler-icon"></span>
             </button>
             <div className=' collapse navbar-collapse Nav-Right' id="navbarNavAltMarkup">
-                <div className='Nav-List'>
-                    <ul className=' navbar-nav Nav-List-Style'>
-                        <li className='nav-item'>Home</li>
-                        <li className='nav-item'>Abilities</li>
-                        <li className='nav-item'>Portfolio</li>
-                        <li className='nav-item'>About Me</li>
-                        <button className='Contact-Button'>
+                    <ul className=' navbar-nav ms-auto mb-2 mb-lg-0 Nav-List-Style Nav-List'>
+                        <li className='nav-item ms-1'>Home</li>
+                        <li className='nav-item ms-1'>Abilities</li>
+                        <li className='nav-item ms-1'>Portfolio</li>
+                        <li className='nav-item ms-1'>About Me</li>
+                        <button className='Contact-Button nav-item ms-1'>
                             Contact
                         </button>
                     </ul>
-                    
-                </div>
             </div>
         
         </div>

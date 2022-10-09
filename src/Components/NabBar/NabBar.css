@@ -30,33 +30,26 @@
     font-weight: 450;
     padding-right: 1rem;
 }
-.Nav-List{
-    flex: 10;
-}
+
 .Nav-List-Style{
     list-style-type: none;
     font-size: 1.5rem;
     align-items: center;
-    margin-right: 0;
-    
 }
-.Nav-List>ul{
+ul{
     display: flex;
     gap: 1.5rem;
     padding-right: 0;
     margin-right: 0;
     
 }
-.Nav-List>ul{
-    
-}
 
-.Nav-List>ul>li:hover{
+ul>li:hover{
     cursor: pointer;
     color:var(--DarkRed);
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 991px){
     .Nav-Name{
         font-size: 2rem;
     }
@@ -66,5 +59,9 @@
     .Nav-List-Style{
         font-size: 1rem;
         align-items: center;
+        margin-left: 0% !important;
+    }
+    .Nav-List{
+        flex: 10;
     }
 }
