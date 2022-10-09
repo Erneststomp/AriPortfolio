@@ -58,6 +58,8 @@
 
 .Card-text{
     margin-top: 400px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 }
 .Card-text > :nth-child(1){
     margin: 0%;
