@@ -52,9 +52,11 @@
 
 @media screen and (max-width: 900px){
     .Nav-Name{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
-
+    .Nav-Left{
+        gap: .5rem;
+    }
     .Nav-List-Style{
         font-size: 1rem;
     }

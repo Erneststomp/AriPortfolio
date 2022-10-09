@@ -115,3 +115,12 @@
         width: 45vw;
     }
 }
+
+@media screen and (max-height: 800px){
+    .Card{
+        margin-top: 0vw;
+    }
+    .Main-div{
+        margin-top: 50px;
+    }
+}
