@@ -1,7 +1,8 @@
 .Nav-Full{
-    height: 10vh;
-    display: flex;
+    display: inline-flex;
     justify-content: space-between;
+    width: 100%;
+    padding-top: 1rem;
 }
 .Nav-Blur{
     Background: var(--LilaGradient);
@@ -17,6 +18,7 @@
     align-items: center;
     display: flex;
     gap: 2rem;
+    padding-left: 1rem;
 }
 .Nav-Name{
     font-size: 3rem;
@@ -25,10 +27,8 @@
 }
 .Nav-Right{
     display: flex;
-    flex: 1;
-    align-items: center;
-    justify-content: center;
     font-weight: 450;
+    padding-right: 1rem;
 }
 .Nav-List{
     flex: 10;
@@ -60,4 +60,5 @@
     .Nav-List-Style{
         font-size: 1rem;
     }
+    
 }

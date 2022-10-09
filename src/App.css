@@ -6,7 +6,7 @@
 }
 .App {
   text-align: center;
-  padding: 0.5rem 3.5rem;
+  padding: 0;
   overflow: hidden;
   color: var(--black); 
 }
@@ -105,16 +105,14 @@
   border: 1px solid var(--Lila);
 }
 
-@media screen and (max-width: 400px){
-  .CV-Button{
-    width: 15rem;
-    margin-top: 25px;
+@media screen and (max-width: 580px){
+  .Contact-Button{
     border-radius: 30px;
     border: none;
-    color: var(--White);
+    color: var(--DarkRed);
     font-size: 1.5rem;
-    padding: 5px;
-    background: var(--LilaGradient);
-    border: 1px solid rgba(255, 255, 255, 25%);
+    padding: 10px;
+    background: none;
+    border: 2px solid rgba(189, 32, 32, 0.521);
   }
 }

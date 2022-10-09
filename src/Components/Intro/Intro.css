@@ -1,21 +1,20 @@
 .Main-div{
-    margin-top: 125px;
-    display: flex;
+    display: block;
     justify-content: center;
-    flex-direction: column;
+    align-self: center;
+    overflow: hidden;
+
 }
 .Card-wrap{
-    margin-top: 7.5%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    align-self: center;
+    align-items: baseline;
+    align-self: baseline;
     flex-direction: column;
-    perspective: 800;
-    -webkit-perspective: 800;
+    perspective: 1000;
+    -webkit-perspective: 1000;
 }
 .Card{
-    position: relative;
     width: 40vh;
     margin-left: auto;
     margin-right: auto;
@@ -26,14 +25,16 @@
     transform-style: preserve-3d;
 }
 .ProfilePictureFront, .ProfilePictureBack{
+    margin-top: 400px;
     position: absolute;
-    height: 35vh;
-    width: 35vh;
+    height: 300px;
+    width: 300px;
     align-items: center;
     border-radius: 50%;
     box-shadow: var(--ShadowRed);
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
+    
 
 }
 .ProfilePictureBack{
@@ -56,7 +57,7 @@
 }
 
 .Card-text{
-    padding-top: 200px;
+    margin-top: 400px;
 }
 .Card-text > :nth-child(1){
     margin: 0%;
@@ -92,7 +93,7 @@
     z-index: -1;
 }
 
-@media screen and (max-width: 1200px){
+/* @media screen and (max-width: 1200px){
 
     .ProfilePictureFront, .ProfilePictureBack{
         height: 30vh;
@@ -110,6 +111,9 @@
 }
 
 @media screen and (max-width: 650px){
+    .Card{
+        margin-top: 1vw;
+    }
     .ProfilePictureFront, .ProfilePictureBack{
         height: 45vw;
         width: 45vw;
@@ -117,12 +121,11 @@
 }
 
 @media screen and (max-height: 800px){
-    .Card{
-        margin-top: 0vw;
-    }
+
     .Main-div{
         margin-top: 50px;
     }
+
 }
 
-
+ */
