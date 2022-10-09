@@ -104,3 +104,17 @@
   color: var(--Lila);
   border: 1px solid var(--Lila);
 }
+
+@media screen and (max-width: 400px){
+  .CV-Button{
+    width: 15rem;
+    margin-top: 25px;
+    border-radius: 30px;
+    border: none;
+    color: var(--White);
+    font-size: 1.5rem;
+    padding: 5px;
+    background: var(--LilaGradient);
+    border: 1px solid rgba(255, 255, 255, 25%);
+  }
+}
