@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
-@font-face {
-  font-family: RoBlueShell;
-  font-weight: bold;
-  src: url("./fonts/RoBlueShellBold-gxn35.otf") format("opentype");
-}
+
 .App {
   text-align: center;
   padding: 0;
@@ -53,6 +49,7 @@
   --White:#ffffff;
   --DarkRed: #862741;
   --Lila: #bda1eb;
+  --DarkLila: #5b2da5;
   --Rosa: #f8b8ed;
   --ShadowBlack:0px 7px 24px 3px rgb(0, 0, 0);
   --ShadowBlue:0px 7px 24px 3px rgba(66, 64, 184, 0.4);
@@ -71,7 +68,7 @@
   font-size: 1.5rem;
   padding: 10px;
   background: var(--LilaGradient);
-  border: 1px solid rgba(255, 255, 255, 25%);
+  border: 1px solid rgba(122, 35, 122, 0.801);
 }
 
 .Contact-Button:hover{
@@ -95,7 +92,7 @@
   font-size: 1.5rem;
   padding: 10px;
   background: var(--LilaGradient);
-  border: 1px solid rgba(255, 255, 255, 25%);
+  border: 1px solid rgba(122, 35, 122, 0.801);
   margin-bottom: 50px;
 }
 
@@ -110,7 +107,7 @@
   .Contact-Button{
     border-radius: 30px;
     border: none;
-    color: var(--DarkRed);
+    color: var(--White);
     font-size: 1.5rem;
     padding: 10px;
     background: none;

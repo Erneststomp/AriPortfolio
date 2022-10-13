@@ -17,7 +17,7 @@
     flex:1;
     align-items: center;
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     padding-left: 1rem;
 }
 .Nav-Name{
@@ -41,15 +41,25 @@ ul{
     gap: 1.5rem;
     padding-right: 0;
     margin-right: 0;
+    padding-top: 1rem;
     
 }
 
-ul>li:hover{
+.Conejo{
+    height: 3rem;
+}
+.Nav-Text{
+    color: var(--DarkLila);
+}
+.Nav-Text:hover{
     cursor: pointer;
     color:var(--DarkRed);
 }
 
 @media screen and (max-width: 991px){
+    .Conejo{
+        height: 2rem;
+    }
     .Nav-Name{
         font-size: 2rem;
     }
@@ -63,5 +73,10 @@ ul>li:hover{
     }
     .Nav-List{
         flex: 10;
+    }
+    .Nav-Text{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-size: 2rem;
     }
 }

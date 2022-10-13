@@ -1,30 +1,28 @@
 import './App.css';
 import NavBar from './Components/NabBar/NavBar';
 import Intro from './Components/Intro/Intro';
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Abilities from './Components/Abilities/Abilities';
+import Portfolio from './Components/Portfolio/Portfolio'
+import AboutMe from './Components/AboutMe/AboutMe'
+import Contact from './Components/Contact/Contact'
+
+let content=<div className="App">
+       <NavBar/>
+       <Routes>
+           <Route path='/' element={<Intro/>}></Route>
+           <Route path='/Abilities' element={<Abilities/>}></Route>
+           <Route path='/Portfolio' element={<Portfolio/>}></Route>
+           <Route path='/AboutMe' element={<AboutMe/>}></Route>
+           <Route path='/Contact' element={<Contact/>}></Route>
+       </Routes>
+   </div>
 
 function App() {
   return (
-    <div className="App">
-      <NavBar/>
-      <Intro/>
-
-
-
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
-    </div>
+    <BrowserRouter>
+        {content}
+  </BrowserRouter>
   );
 }
 
